@@ -422,7 +422,7 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/SMCProcessor</string>
-				<key>MatchKernel</key>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
 				<string></string>
@@ -648,7 +648,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
