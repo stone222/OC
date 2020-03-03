@@ -674,11 +674,12 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
-			<string>None</string>
+			<string>Auto</string>
 			<key>PickerMode</key>
 			<string>Builtin</string>
 			<key>HideAuxiliary</key>
@@ -929,11 +930,11 @@
 		<key>Output</key>
 		<dict>
 			<key>TextRenderer</key>
-			<string>BuiltinGraphics</string>
+			<string>SystemText</string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>Resolution</key>
-			<string>Max</string>
+			<string>1920x1080</string>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
