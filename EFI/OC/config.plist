@@ -674,8 +674,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>HibernateMode</key>
@@ -736,7 +735,7 @@
 			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
-			<integer>3</integer>
+			<integer>2</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>Vault</key>
@@ -915,7 +914,7 @@
 			<key>KeyMergeThreshold</key>
 			<integer>2</integer>
 			<key>KeySupport</key>
-			<true/>
+			<false/>
 			<key>KeySupportMode</key>
 			<string>Auto</string>
 			<key>KeySwap</key>
@@ -930,7 +929,7 @@
 		<key>Output</key>
 		<dict>
 			<key>TextRenderer</key>
-			<string>SystemText</string>
+			<string>BuiltinGraphics</string>
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>Resolution</key>
@@ -940,7 +939,7 @@
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
-			<true/>
+			<false/>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ReconnectOnResChange</key>
@@ -988,9 +987,9 @@
 			<key>ReleaseUsbOwnership</key>
 			<false/>
 			<key>RequestBootVarFallback</key>
-			<true/>
+			<false/>
 			<key>RequestBootVarRouting</key>
-			<true/>
+			<false/>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
