@@ -325,6 +325,8 @@
 				<data>AAAAgA==</data>
 				<key>model</key>
 				<string>Intel UHD Graphics 630 (Mobile)</string>
+				<key>force-online</key>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
