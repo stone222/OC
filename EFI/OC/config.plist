@@ -889,7 +889,7 @@
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>DmgLoading</key>
-			<string>Any</string>
+			<string>Signed</string>
 			<key>EnablePassword</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
@@ -903,7 +903,7 @@
 			<key>ScanPolicy</key>
 			<integer>2162947</integer>
 			<key>SecureBootModel</key>
-			<string>Disabled</string>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
