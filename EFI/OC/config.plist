@@ -328,15 +328,9 @@
 				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>mz4AAA==</data>
-				<key>model</key>
-				<string>Intel UHD Graphics 630 (Mobile)</string>
-				<key>force-online</key>
+				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-				<key>framebuffer-patch-enable</key>
+				<key>force-online</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con0-alldata</key>
 				<data>AQAJAAAEAADHAwAA</data>
@@ -350,8 +344,14 @@
 				<data>AwAIAAAEAADHAwAA</data>
 				<key>framebuffer-con2-enable</key>
 				<data>AQAAAA==</data>
-				<key>enable-hdmi20</key>
+				<key>framebuffer-patch-enable</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
+				<key>model</key>
+				<string>Intel UHD Graphics 630 (Mobile)</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -874,6 +874,36 @@
 				<string></string>
 				<key>Replace</key>
 				<data>McCwBrr5DAAA7uv+</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>ACL HDMI Audio Patch</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>DgAAuHCdAADrBpA=</data>
+				<key>Identifier</key>
+				<string>as.vit9696.AppleALC</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>Replace</key>
+				<data>DgAAuEijAADrBpA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
