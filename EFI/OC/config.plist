@@ -205,9 +205,9 @@
 			<false/>
 			<key>RebaseRegions</key>
 			<false/>
-			<key>ResetHwSig</key>
-			<false/>
 			<key>ResetLogoStatus</key>
+			<false/>
+			<key>ResetHwSig</key>
 			<false/>
 			<key>SyncTableIds</key>
 			<false/>
@@ -960,7 +960,7 @@
 			<key>FuzzyMatch</key>
 			<false/>
 			<key>KernelArch</key>
-			<string>x86_64</string>
+			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
@@ -1288,6 +1288,8 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>GraphicsInputMirroring</key>
+			<true/>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
