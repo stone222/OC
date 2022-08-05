@@ -26,7 +26,7 @@
                     <key>Comment</key>
                     <string>Notebook brightness</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-PNLF.aml</string>
                 </dict>
@@ -66,7 +66,7 @@
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Path</key>
                     <string>SSDT-ALS0.aml</string>
                 </dict>
@@ -369,7 +369,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.1 | Patch engine</string>
+                    <string>V1.6.2 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -405,7 +405,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0</string>
+                    <string>V1.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -423,7 +423,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.3 | Audio patches</string>
+                    <string>V1.7.4 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -567,7 +567,7 @@
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
                     <key>Comment</key>
-                    <string>V1.0</string>
+                    <string>V1.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -977,7 +977,7 @@
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
-                <true/>
+                <false/>
             </dict>
             <key>Scheme</key>
             <dict>
@@ -1095,6 +1095,33 @@
             </dict>
             <key>Serial</key>
             <dict>
+                <key>Custom</key>
+                <dict>
+                    <key>BaudRate</key>
+                    <integer>115200</integer>
+                    <key>ClockRate</key>
+                    <integer>1843200</integer>
+                    <key>DetectCable</key>
+                    <false/>
+                    <key>ExtendedTxFifoSize</key>
+                    <integer>64</integer>
+                    <key>FifoControl</key>
+                    <integer>7</integer>
+                    <key>LineControl</key>
+                    <integer>3</integer>
+                    <key>PciDeviceInfo</key>
+                    <data>/w==</data>
+                    <key>RegisterAccessWidth</key>
+                    <integer>8</integer>
+                    <key>RegisterBase</key>
+                    <integer>1016</integer>
+                    <key>RegisterStride</key>
+                    <integer>1</integer>
+                    <key>UseHardwareFlowControl</key>
+                    <false/>
+                    <key>UseMmio</key>
+                    <false/>
+                </dict>
                 <key>Init</key>
                 <false/>
                 <key>Override</key>
@@ -1213,8 +1240,6 @@
                     <string>ForceDisplayRotationInEFI</string>
                 </array>
             </dict>
-            <key>LegacyEnable</key>
-            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -1366,6 +1391,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
@@ -1376,6 +1403,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>ResetNvramEntry.efi</string>
                 </dict>
@@ -1386,6 +1415,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>ToggleSipEntry.efi</string>
                 </dict>
@@ -1396,6 +1427,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenHfsPlus.efi</string>
                 </dict>
